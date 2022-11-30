@@ -1,6 +1,6 @@
 <?php
 
-$db = new PDO("mysql:host=localhost;dbname=cijfersysteem",
+$db = new PDO("mysql:host=localhost;dbname=test",
     "root", "");
 $query = $db->prepare("SELECT * FROM leerlingen");
 $query->execute();
