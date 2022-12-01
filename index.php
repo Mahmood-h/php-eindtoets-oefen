@@ -22,6 +22,7 @@ foreach ($leerlingen as $leerling) {
     echo "<td>" . $leerling['cijfer'] . "</td>";
     echo "<td> <a href='update.php?id=". $leerling["id"]."'>Update</a>";
     echo "<td> <a href='delete.php?id=". $leerling["id"]."'>Delete</a>";
+    echo "<td> <a href='detail.php?id=". $leerling["id"]."'>Detail</a>";
     echo "</tr>";
     $teller++;
 }
